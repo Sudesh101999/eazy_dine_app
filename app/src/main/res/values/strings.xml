@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Easy Dine-In</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="rupise">₹ </string>
+    <string name="veg_nor_nnon_veg"><font color='#03fc9d'>Veg</font>\nOR\n<font color='#037bfc'>Non-Veg</font></string>
+    <string name="mrp">₹ 7989</string>
+    <string name="indian_rs">₹</string>
+    <string name="thanks_txt">Your Order is now being processed. We will let you know once the order is picked from the outlet. Check</string>
+
+    <string name="about_us_line_1">Book and enjoy extraordinary dining experiences in our restaurant. Enjoy a great dinning experience and avail great offers. Now Book, Reserve and Enjoy our multicuisine food.</string>
+    <string name="about_us_line_2"><b>Digitalized Menu:</b><br /> <br /> You can enjoy the experience of ordering your own food and even customize your ingredients or give chef\'s any suggestions or requests.</string>
+    <string name="about_us_line_3"><b>Table Reservation:</b><br /> <br /> You can book a table beforehand so that you don\'t have to wait for your turn. You can pre book the table prior and come and enjoy our dinning experience.</string>
+</resources>

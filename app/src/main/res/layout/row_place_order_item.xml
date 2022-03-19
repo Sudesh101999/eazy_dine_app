@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <View
+        android:id="@+id/view_1_2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/icon_top_color"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/item_img_2"
+        android:layout_width="100.00dp"
+        android:layout_height="100.00dp"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:src="@mipmap/ic_launcher_foreground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_1_2" />
+
+    <TextView
+        android:id="@+id/item_name_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:padding="3dp"
+        android:text="Robokart shopping item is here"
+        android:textColor="@color/darkgrey"
+        app:layout_constraintStart_toEndOf="@+id/item_img_2"
+        app:layout_constraintTop_toBottomOf="@+id/view_1_2" />
+
+    <TextView
+        android:id="@+id/item_qty_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:padding="3dp"
+        android:text=" X "
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/item_img_2"
+        app:layout_constraintTop_toBottomOf="@+id/item_name_2" />
+
+    <TextView
+        android:id="@+id/item_qty_tv_2"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginStart="1dp"
+        android:padding="3dp"
+        android:text="12"
+        app:layout_constraintStart_toEndOf="@+id/item_qty_2"
+        app:layout_constraintTop_toBottomOf="@+id/item_name_2" />
+
+    <TextView
+        android:id="@+id/item_type_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="Type"
+        android:textColor="@color/light_gray"
+        app:layout_constraintStart_toEndOf="@+id/item_img_2"
+        app:layout_constraintTop_toBottomOf="@+id/item_qty_2" />
+
+    <TextView
+        android:id="@+id/item_category_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:padding="3dp"
+        android:text="Category"
+        android:textColor="@color/light_gray"
+        app:layout_constraintStart_toEndOf="@+id/item_type_2"
+        app:layout_constraintTop_toBottomOf="@+id/item_qty_2" />
+
+
+    <TextView
+        android:id="@+id/item_mrp_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:padding="3dp"
+        android:text="@string/mrp"
+        android:textColor="@color/light_gray"
+        app:layout_constraintStart_toEndOf="@+id/item_img_2"
+        app:layout_constraintTop_toBottomOf="@+id/item_type_2" />
+
+    <TextView
+        android:id="@+id/item_price_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="6999"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/item_mrp_2"
+        app:layout_constraintTop_toBottomOf="@+id/item_category_2" />
+
+    <View
+        android:id="@+id/view_2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/icon_top_color"
+        app:layout_constraintTop_toBottomOf="@+id/item_price_2"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

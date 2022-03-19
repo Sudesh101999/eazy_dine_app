@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.PlaceOrderActivity"
+    android:background="@color/icon_top_color">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingBottom="5dp"
+        android:scrollbars="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/back_btn_place_order"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20.00dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_back"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="@color/white" />
+
+            <TextView
+                android:id="@+id/text_mycart_place_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="21.00dp"
+                android:padding="5dp"
+                android:text="My Cart"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                app:layout_constraintStart_toEndOf="@+id/back_btn_place_order"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <RelativeLayout
+                android:id="@+id/relative_layout_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/d_round_white_background"
+                android:padding="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text_mycart_place_order">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/payable_amount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Payable Amount"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:layout_column="1"/>
+
+                        <TextView
+                            android:id="@+id/payable_amount_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" : 5"
+                            android:drawableEnd="@drawable/ic_indian_rupee_symbol"
+                            android:layout_below="@+id/t_num_tv"
+                            android:drawablePadding="2dp"
+                            android:textSize="18sp"
+                            android:layout_column="2"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:id="@+id/t_num"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Table Number"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:layout_column="1"/>
+
+                        <TextView
+                            android:id="@+id/t_num_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" : Select Table"
+                            android:textSize="18sp"
+                            android:textColor="@color/black"
+                            android:layout_column="2" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Start Time"
+                            android:textSize="18sp"
+                            android:layout_column="1"
+                            android:textColor="@color/black"/>
+                        <TextView
+                            android:id="@+id/start_time_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=": Start Time"
+                            android:paddingStart="5dp"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:layout_column="2"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_marginTop="5dp">
+                        <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="End Time"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                            android:layout_column="1"/>
+                        <TextView
+                            android:id="@+id/end_time_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=": End Time"
+                            android:paddingStart="5dp"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:layout_column="2"/>
+                    </TableRow>
+
+                </TableLayout>
+
+            </RelativeLayout>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/cart_item_recycle_place_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/d_round_white_background"
+                android:orientation="vertical"
+                android:padding="10.00dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/relative_layout_details"
+                tools:ignore="MissingConstraints"
+                tools:listitem="@layout/row_place_order_item" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:weightSum="2"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/pay_leter_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/orange"
+            android:padding="15dp"
+            android:text="Pay later"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="16.00dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/pay_now_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/green"
+            android:padding="15dp"
+            android:text="Pay Now"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="16.00dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:id="@+id/place_order_progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="170.00dp"
+        android:visibility="gone"
+        android:indeterminateDrawable="@drawable/progress_bar_style"
+        android:indeterminateDuration="@android:integer/config_longAnimTime"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

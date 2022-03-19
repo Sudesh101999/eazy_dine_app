@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/admin/.gradle/caches/transforms-3/255d63c0f9f8f5d12ab3191ffb377750/transformed/core-1.5.0/res/layout/custom_dialog.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/drawable/about_us_card_bg.xml" value="0.3828125" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/drawable/button_bg.xml" value="0.3828125" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/drawable/canceled_bg_layout.xml" value="0.3828125" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/drawable/counter_txt_bg.xml" value="0.2796296296296296" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/drawable/cust_dialog_button_corners.xml" value="0.3828125" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/drawable/d_round_white_background.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/drawable/heart_empty.xml" value="0.3828125" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/drawable/ic_back.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/drawable/ic_baseline_cancel_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/drawable/ic_indian_rupee_symbol.xml" value="0.3828125" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/drawable/order_details_layout.xml" value="0.3828125" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/drawable/progress_bar_style.xml" value="0.3828125" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/layout-v26/activity_about_us.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/layout-v3/fragment_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/layout/activity_about_us.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/layout/activity_cart_detail.xml" value="0.5" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/layout/activity_edit_orders.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/layout/activity_fav.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/layout/activity_home_details.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/layout/activity_order_details.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/layout/activity_place_order.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/layout/activity_register.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/layout/activity_select_table.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/layout/edit_profile_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/layout/fragment_orders.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/layout/fragment_profile.xml" value="0.3453703703703704" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/layout/home_dialog_table_shedule.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/layout/home_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/layout/home_schedule_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/layout/home_shedule_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/layout/order_fg_details_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/layout/orders_layout.xml" value="0.33" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/layout/row_cart_item.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/layout/row_fav_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/layout/row_place_order_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/layout/table_lsit_layout.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/layout/thanks_for_order.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.221875" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Sudeshwar/EazyDineIn/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.221875" />
+        <entry key="..\:/Users/sudes/AndroidStudioProjects/AndroidStudioProjects/EazyDineIn/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.132" />
+        <entry key="..\:/Users/sudes/AndroidStudioProjects/AndroidStudioProjects/EazyDineIn/app/src/main/res/drawable/ic_launcher_background.xml" value="0.132" />
+        <entry key="..\:/Users/sudes/AndroidStudioProjects/AndroidStudioProjects/EazyDineIn/app/src/main/res/layout/activity_about_us.xml" value="0.203125" />
+        <entry key="..\:/Users/sudes/AndroidStudioProjects/AndroidStudioProjects/EazyDineIn/app/src/main/res/layout/activity_cart_detail.xml" value="0.203125" />
+        <entry key="..\:/Users/sudes/AndroidStudioProjects/AndroidStudioProjects/EazyDineIn/app/src/main/res/layout/activity_dish_list.xml" value="0.203125" />
+        <entry key="..\:/Users/sudes/AndroidStudioProjects/AndroidStudioProjects/EazyDineIn/app/src/main/res/layout/activity_home_details.xml" value="0.203125" />
+        <entry key="..\:/Users/sudes/AndroidStudioProjects/AndroidStudioProjects/EazyDineIn/app/src/main/res/layout/activity_login.xml" value="0.203125" />
+        <entry key="..\:/Users/sudes/AndroidStudioProjects/AndroidStudioProjects/EazyDineIn/app/src/main/res/layout/activity_order_details.xml" value="0.203125" />
+        <entry key="..\:/Users/sudes/AndroidStudioProjects/AndroidStudioProjects/EazyDineIn/app/src/main/res/layout/activity_place_order.xml" value="0.14895833333333333" />
+        <entry key="..\:/Users/sudes/AndroidStudioProjects/AndroidStudioProjects/EazyDineIn/app/src/main/res/layout/activity_register.xml" value="0.203125" />
+        <entry key="..\:/Users/sudes/AndroidStudioProjects/AndroidStudioProjects/EazyDineIn/app/src/main/res/layout/edit_profile_layout.xml" value="0.203125" />
+        <entry key="..\:/Users/sudes/AndroidStudioProjects/AndroidStudioProjects/EazyDineIn/app/src/main/res/layout/fragment_home.xml" value="0.203125" />
+        <entry key="..\:/Users/sudes/AndroidStudioProjects/AndroidStudioProjects/EazyDineIn/app/src/main/res/layout/fragment_profile.xml" value="0.203125" />
+        <entry key="..\:/Users/sudes/AndroidStudioProjects/AndroidStudioProjects/EazyDineIn/app/src/main/res/layout/home_layout.xml" value="0.203125" />
+        <entry key="..\:/Users/sudes/AndroidStudioProjects/AndroidStudioProjects/EazyDineIn/app/src/main/res/layout/sort_custm_layout.xml" value="0.203125" />
+        <entry key="..\:/Users/sudes/AndroidStudioProjects/AndroidStudioProjects/EazyDineIn/app/src/main/res/menu/filter_menu.xml" value="0.203125" />
+        <entry key="..\:/Users/sudes/AndroidStudioProjects/AndroidStudioProjects/EazyDineIn/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.132" />
+        <entry key="..\:/Users/sudes/AndroidStudioProjects/AndroidStudioProjects/EazyDineIn/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.121" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="corretto-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

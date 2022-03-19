@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true"
+    android:clipToPadding="false"
+    android:clipChildren="false"
+    android:paddingStart="5dp"
+    android:paddingEnd="5dp"
+    android:paddingBottom="2dp">
+    <!--<androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:orientation="vertical"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        android:shadowDx="30"
+        android:shadowDy="30"
+        android:shadowRadius="50"
+        android:id="@+id/home_layout_card"
+        android:layout_weight="1"
+        app:cardPreventCornerOverlap="false"
+        android:elevation="8dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0.0px"
+        android:clipToPadding="false"
+        android:clipChildren="false">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:padding="5dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cvVideo_1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/home_layout_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"/>
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cvVideo_1"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:id="@+id/home_layout_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:padding="5dp"
+                    android:text="Drone Kits"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/home_layout_offer_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/home_layout_name"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:paddingStart="5dp"
+                    android:paddingTop="2dp"
+                    android:paddingEnd="5dp"
+                    android:text="₹ 7199"
+                    android:textColor="@color/carbon_green_600"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/home_layout_mrp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/home_layout_name"
+                    android:layout_toEndOf="@+id/home_layout_offer_price"
+                    android:layout_centerVertical="true"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:padding="5dp"
+                    android:text="₹ 8199"
+                    android:textColor="@color/red"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/home_layout_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/home_layout_mrp"
+                    android:layout_marginTop="-6dp"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingStart="5dp"
+                    android:text="Disciption"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="12sp" />
+
+
+                <TextView
+                    android:id="@+id/home_layout_dish_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/home_layout_description"
+                    android:layout_centerVertical="true"
+                    android:padding="6dp"
+                    android:text="Type"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="10sp"/>
+
+                <TextView
+                    android:id="@+id/home_layout_dish_category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/home_layout_description"
+                    android:layout_marginStart="4dp"
+                    android:layout_toEndOf="@+id/home_layout_dish_type"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:padding="6dp"
+                    android:text="Category"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>-->
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:orientation="vertical"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        android:shadowDx="30"
+        android:shadowDy="30"
+        android:shadowRadius="50"
+        android:id="@+id/home_layout_card"
+        android:layout_weight="1"
+        app:cardPreventCornerOverlap="false"
+        android:elevation="8dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0.0px"
+        android:clipToPadding="false"
+        android:clipChildren="false">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/image_cv"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/home_layout_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"/>
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <RelativeLayout
+                android:id="@+id/mid_content_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_toEndOf="@+id/image_cv">
+
+                <TextView
+                    android:id="@+id/home_layout_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:padding="5dp"
+                    android:text="Drone Kits"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/home_layout_offer_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/home_layout_name"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:paddingStart="5dp"
+                    android:paddingTop="2dp"
+                    android:paddingEnd="5dp"
+                    android:text="₹ 7199"
+                    android:textColor="@color/carbon_green_600"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/home_layout_mrp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/home_layout_name"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/home_layout_offer_price"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:padding="5dp"
+                    android:text="₹ 8199"
+                    android:textColor="@color/red"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/home_layout_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/home_layout_mrp"
+                    android:layout_marginTop="-6dp"
+                    android:ellipsize="end"
+                    android:maxLines="4"
+                    android:paddingStart="5dp"
+                    android:text="Disciption"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/home_layout_dish_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/home_layout_description"
+                    android:layout_centerVertical="true"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:padding="6dp"
+                    android:text="Type"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/home_layout_dish_category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/home_layout_description"
+                    android:layout_marginStart="4dp"
+                    android:layout_toEndOf="@+id/home_layout_dish_type"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:padding="6dp"
+                    android:text="Category"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/add_iv"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="1dp"
+                android:visibility="gone"
+                android:src="@drawable/ic_baseline_add_circle_outline_24" />
+            <ImageView
+                android:id="@+id/remove_iv"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="1dp"
+                android:visibility="gone"
+                android:src="@drawable/ic_baseline_remove_circle_outline_24" />
+
+            <ImageView
+                android:id="@+id/fav_empty_iv"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="1dp"
+                android:src="@drawable/heart_empty" />
+            <ImageView
+                android:id="@+id/fav_fill_iv"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="1dp"
+                android:visibility="gone"
+                android:src="@drawable/heart_fill"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

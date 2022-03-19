@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/filter_dish"
+        android:title="Filter"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/short_a_to_z"
+                android:title="Sort A to Z"
+                android:icon="@drawable/ic_baseline_sort_by_alpha_24"
+                android:orderInCategory="100"/>
+            <item
+                android:id="@+id/short_z_to_a"
+                android:title="Sort Z to A"
+                android:icon="@drawable/ic_baseline_sort_by_alpha_24"
+                android:orderInCategory="100"/>
+        </menu>
+    </item>
+</menu>
